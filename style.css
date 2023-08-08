@@ -1,0 +1,112 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto' , sans-serif;
+}
+section{
+    min-width : 100% ;
+    min-height:100vh ;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)),url("https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?cs=srgb&dl=pexels-william-choquette-1954524.jpg&fm=jpg");
+    background-repeat : no-repeat;
+    background-size : cover;
+    font-family : sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+
+}
+nav{
+    height: 65px;
+}
+nav h1{
+    float: left;
+    line-height: 50px;
+    font-size: 40px;
+    font-size: inline;
+    color: rgba(85, 10, 10, 0.8);
+    text-decoration-style: wavy;
+}
+.icon {
+    font-family: 'akronim';
+    font-size: 50px;
+    margin-left: -60px;
+    margin-top: 30px;
+    color:blueviolet(12, 33, 70);
+}
+nav ul{
+    float: right;
+    line-height: 100px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul li a{
+    color: yellow;
+    text-decoration: black;
+    text-transform: uppercase;
+    border-radius: 7px;
+    padding: 6px 7px;
+}
+nav ul li a:hover{
+    background-color: rgba(20, 31, 118 , 0.8);
+    transition: 0.5s ease;
+}
+nav ul li.active{
+    background-color: rgba(43, 208, 226, 0.7);
+}
+.article{
+    max width: 50%;
+    position:absolute;
+    margin-top: 180px;
+    margin-left: 140px;
+    text-align: center;
+    transform: translate(30vh);
+}
+.article h1{
+    font-size: 30px;
+    color: rgba(85, 10, 10, 0.8);
+    letter-spacing: 1.5px;
+    font-weight: 1000;
+    margin-bottom:45px;
+}
+.article:hover{
+    background-color:blueviolet;
+    transition: 0.5s ease;
+}
+.article p{
+    font-size: 30px;
+    color : yellow;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.article.btn{
+    color:indianred;
+    padding: 12px 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: blue;
+}
+.article.btn:hover{
+    background-color: blue;
+    transition: 0.5s ease;
+}
+
+.article a {
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: indianred;
+}
+
+.article a:hover {
+    background-color: indigo;
+    color: black;
+    transition: 0.4 ease;
+}
